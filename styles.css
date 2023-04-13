@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: white;
+}
+
+body{
+    background-color: black;
+    width: 80vw;
+    margin: 0 auto;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a:hover{
+    color: rgb(245, 215, 46);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 100px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto 0;
+    justify-content: right;
+}
+
+.nav-list ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list ul li{
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.nav-btn{
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+
+img[alt='logo']{
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+}
+
+.shop-btn{
+    margin: auto;
+    padding: 8px 30px;
+    font: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    border-top: 4px solid rgb(101, 101, 101);
+    border-bottom: 0;
+    border-left: 4px solid rgb(101, 101, 101);
+    border-right: 0;
+    border-radius: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.shop-btn:hover{
+    font-weight: 900;
+    padding: 9px 32px;
+    font: 17px;
+}
+
+.main{
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.main-img{
+    margin: 0 auto;
+    position: relative;
+    top: -160px;
+    height: 500px;
+}
+
+.main-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    height: auto;
+}
+
+img[alt='On Ear']{
+    margin: 50px auto 0;
+}
+
+.main-right p{
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.shopping-bag{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    background-color: rgb(34, 33, 33);
+    border: 2px solid rgb(34, 33, 33);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.shopping-bag:hover{
+    cursor: pointer;
+}
+
+.shopping-bag p{
+    font-size: 13px;
+    margin: auto 0;
+}
+
+.shopping-bag span{
+    font-weight: 800;
+}
+
+.main-right h1{
+    font-size: 45px;
+}
+
+.main-right h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    padding: 50px;
+}
+
+.specification{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.specs-img{
+    margin: 0 auto;
+}
+
+.specs-main{
+    display: flex;
+    align-items: center;
+}
+
+.specification-list{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-right: 50px;
+    gap: 40px;
+    padding: 30px 0;
+}
+
+/* img[alt='specs-img']{
+    width: 30%;
+    height: 30%;
+} */
+
+.slist{
+    width: 40%;
+}
+
+.middle{
+    margin-right: 50px;
+}
+
+.sdes{
+    font-size: 11px;
+    font-weight: 200;
+}
+
+/* Case */
+
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.case-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 80px;
+}
+
+.case-content{
+    width: 52%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.more-info-case{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 80%;
+    padding: 10px 20px;
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 6px;
+}
+
+.more-info-case:hover{
+    cursor: pointer;
+}
+
+/* Buy Now */
+
+.buy-now{
+    background-color: rgb(41, 41, 41);
+    border: 5px solid rgb(41, 41, 41);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    margin: 120px 0;
+}
+
+.buy-now-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buy-now-right h4{
+    font-size: 18px;
+}
+
+.buy-now-right p{
+    font-size: 14px;
+}
+
+.buy-now-btn{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    gap: 10px;
+    background-color: black;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.buy-now-btn:hover{
+    cursor: pointer;
+}
+
+/* Choose Your Style */
+
+.choose-style{
+    display: flex;
+    flex-direction: column;
+}
+
+img[alt='choose-style']{
+    margin: auto;
+}
+
+.grid-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px auto 30px;
+    column-gap: 80px;
+    row-gap: 150px;
+}
+
+.content{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 230px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    justify-content: end;
+}
+
+.buy-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buy-btn h6{
+    font-size: 17px;
+}
+
+.buy-btn p{
+    font-size: 16px;
+}
+
+img[alt='shopping-bag']{
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    background-color: black;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+img[alt='shopping-bag']:hover{
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+}
+
+.product{
+    position: relative;
+    height: 250px;
+    top: -15px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0 ;
+}
+
+.heading{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.list-content{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.connect-mail{
+    display: flex;
+    padding: 5px;
+    border: 2px solid rgb(43, 42, 42);
+    background-color: rgb(43, 42, 42);
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.connect-social-media{
+    display: flex;
+    gap: 20px;
+}
+
+.subscribe-btn{
+    display: flex;
+    background-color: black;
+    padding: 8px;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.subscribe-btn img{
+    width: 20px;
+    height: 20px;
+}
+
+.subscribe-btn:hover{
+    cursor: pointer;
+}
+
+.connect-mail input{
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+    font-size: 15px;
+}
+
+/* Up Arrow */
+
+#uparrow{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    
+}
+
+
